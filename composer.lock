@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c9a85e56019ddc5fdfd591e362b577ac",
+    "packages": [
+        {
+            "name": "transbank/transbank-sdk",
+            "version": "1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TransbankDevelopers/transbank-sdk-php.git",
+                "reference": "c8f05c5e9ddef6c26d3d6bf88ceeae934f15423b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TransbankDevelopers/transbank-sdk-php/zipball/c8f05c5e9ddef6c26d3d6bf88ceeae934f15423b",
+                "reference": "c8f05c5e9ddef6c26d3d6bf88ceeae934f15423b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "~0.6.1",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Transbank\\Onepay\\": [
+                        "lib/onepay",
+                        "lib/onepay/utils"
+                    ],
+                    "Transbank\\Onepay\\Exceptions\\": [
+                        "lib/onepay/exceptions"
+                    ],
+                    "Transbank\\Webpay\\": [
+                        "lib/webpay",
+                        "lib/webpay/soap"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Transbank SDK",
+            "keywords": [
+                "api",
+                "payments",
+                "sdk",
+                "transbank"
+            ],
+            "time": "2019-10-17T21:59:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
